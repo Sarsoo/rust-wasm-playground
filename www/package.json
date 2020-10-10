@@ -1,0 +1,35 @@
+{
+  "name": "wazem",
+  "version": "0.1.0",
+  "description": "Playing with rusty web libraries",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarsoo/wazem.git"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "rust",
+    "webpack"
+  ],
+  "author": "sarsoo",
+  "bugs": {
+    "url": "https://github.com/Sarsoo/wazem/issues"
+  },
+  "homepage": "https://github.com/Sarsoo/wazem#readme",
+  "dependencies": {
+    "wazem": "file:../pkg"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.2",
+    "wazem": "^0.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
