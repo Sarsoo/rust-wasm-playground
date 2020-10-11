@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.1.2",
-    "wazem": "^0.1.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"

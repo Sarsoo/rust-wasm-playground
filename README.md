@@ -4,7 +4,7 @@ wazem
 Playing with client-side rust libraries for speedy types.
 
 * `wasm-pack`
-* `create-wasm-app`-bootstraoo dev server
+* `create-wasm-app`-start dev server
 
 ## Usage
 
